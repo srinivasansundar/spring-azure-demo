@@ -12,7 +12,7 @@ public class SpringAzureDemoApplication {
 	@GetMapping("/message")
 	public String message()
 	{
-		return "Congrats! Your app is deployed in Azure cloud Platform";
+		return "Congrats! Your app is deployed in Azure cloud Platform - CI/CD";
 	}
 
 	public static void main(String[] args) {
